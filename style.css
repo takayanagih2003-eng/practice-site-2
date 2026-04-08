@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.header {
+    background-color:black;
+}
+.header a {
+    color:white;
+}
+.header-logo img{
+    height:80px;
+    margin-right:200px;
+    margin-left:0;
+}
+.container {
+    width:1000px;
+    margin:0 auto;
+}
+.header .container {
+    display:flex;
+    padding:5px 0;
+    align-items:flex-end;
+    font-weight:bold;
+}
+.header a:hover{
+    color: beige;
+}
+.main-pic img {
+    width:100%;
+    display:block;
+
+}
+.main-about {
+    background-color:black;
+}
+.main-about h2{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:0;
+    padding-top:20px;
+}
+.main-about p {
+    color:white;
+    font-size:20px;
+    text-align:center;
+    margin-bottom:0;
+    letter-spacing:2px;
+    line-height :30px;
+    padding-bottom:20px;
+ 
+}
+.main-exhibitions .container {
+    display:flex;
+    gap:40px;
+}
+.pic1,
+.pic2 {
+    display:flex;
+    display:block;
+    height:300px;
+    object-fit:cover;
+    margin-top:20px;
+
+}
+.main-exhibitions {
+    background-color:rgb(79, 75, 20);
+}
+.main-exhibitions p {
+    color:white;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+    padding:20px 15px 0 15px;
+    letter-spacing:2px;
+    line-height :30px;
+    margin-bottom:0;
+}
+.main-reservation {
+    background-color:goldenrod;
+    margin:0 auto;
+    padding:30px 0 30px 0;
+
+}
+.main-reservation a {
+    display:flex;
+    flex-direction:column;
+    color:white;
+    margin-bottom:30px;
+    background-color:black;
+    height:60px;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    height:60px;
+    font-size:30px;
+    box-shadow:0 7px 0 #4a4a4a;
+    
+
+
+}
+.main-reservation a:last-child{
+    margin-bottom:0;
+}
+.main-reservation .container {
+    margin:0 auto;
+}
+.main-reservation a:hover {
+    transform: translateY(4px);
+    box-shadow:0 0 0 #b1a7a7;
+}
+footer  {
+    background-color:black;
+    margin-top:0;
+    height:200px;
+}
+footer h3 {
+    color:white;
+    padding-top:0;
+    text-align:center;
+    margin:0;
+}
+footer p {
+    color:white;
+    text-align:center;
+    margin:0;
+
+}
