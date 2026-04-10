@@ -128,3 +128,40 @@ footer p {
     margin:0;
 
 }
+@media (max-width: 1000px) {
+    .container {
+        width:100%;
+        padding:0 20px;
+    }
+}
+@media(max-width:768px) {
+    .header .container {
+        flex-direction:column;
+        align-item:center;
+        gap:15px;
+    }
+    .header-logo img {
+        margin-right:0;
+    }
+    .main-exhibitions .container {
+        flex-direction:column;
+        gap:20px;
+    }
+    .pic1, .pic2 {
+        width:100%;
+        height:auto;
+    }
+    .main-reservation a {
+        font-size:18px;
+        text-align:center;
+        padding:10px;
+    }
+    .main-about h2 {
+        font-sizee:24px;
+
+    }
+    .main-about p {
+        font-size:16px;
+        line-height:1.6;
+    }
+}
