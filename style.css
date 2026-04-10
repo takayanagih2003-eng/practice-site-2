@@ -140,6 +140,7 @@ footer p {
         max-width :100%;
         margin:0 auto;
         padding:0 20px;
+        box-sizing :border-box;
     }
     .header .container {
         flex-direction:column;
@@ -153,7 +154,7 @@ footer p {
         display:block;
         width:100%;
         text-align:center;
-        padding:5px 0 ;
+        padding:10px 0 ;
         font-size:15px;
     }
     .main-about p {
@@ -189,6 +190,9 @@ footer p {
         font-size:16px;
         line-height:1.6;
         text-align:center;
+        padding:0 10px 20px 10px;
+        letter-spacing:0;
+        word-break:break-all;
     }
     .main-reservation a {
         font-size :18px;
