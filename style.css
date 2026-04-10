@@ -139,15 +139,15 @@ footer p {
         width :100% !important;
         max-width :100%;
         margin:0 auto;
-        padding:0 10px;
+        padding:0 20px;
     }
     .header .container {
         flex-direction:column;
-        align-item:center;
+        align-items:center;
         gap:15px;
     }
     .header-logo img {
-        margin-right:0;
+        margin-right:0 !important;
     }
     .header a {
         display:block;
@@ -169,11 +169,12 @@ footer p {
         flex-direction:column;
         gap:20px;
         width:100%;
-        paddong:0 20px;
+        padding:0 20px;
     }
     .pic1, .pic2 {
-        width:100%;
-        height:auto;
+        width:100% !important;
+        height:auto !important;
+        margin-top:20px;
     }
     .main-reservation a {
         font-size:18px;
@@ -181,13 +182,18 @@ footer p {
         padding:10px;
     }
     .main-about h2 {
-        font-sizee:24px;
+        font-size:24px;
 
     }
     .main-about p {
         font-size:16px;
         line-height:1.6;
+        text-align:center;
     }
-    
+    .main-reservation a {
+        font-size :18px;
+        text-align:center;
+        padding:10px;
+    }
     
 }
