@@ -135,6 +135,12 @@ footer p {
     }
 }
 @media(max-width:768px) {
+    .container {
+        width :100%;
+        max-width :none;
+        margin:0;
+        padding:0 10px;
+    }
     .header .container {
         flex-direction:column;
         align-item:center;
@@ -179,4 +185,6 @@ footer p {
         font-size:16px;
         line-height:1.6;
     }
+    
+    
 }
