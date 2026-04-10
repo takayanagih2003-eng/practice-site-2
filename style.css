@@ -165,8 +165,11 @@ footer p {
         word-break:break-all;
     }
     .main-exhibitions .container {
+        display:flex;
         flex-direction:column;
         gap:20px;
+        width:100%;
+        paddong:0 20px;
     }
     .pic1, .pic2 {
         width:100%;
